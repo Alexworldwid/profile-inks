@@ -23,6 +23,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 500px) {
+    .profile-sect {
+    padding: 15px;
+    background-color: black;
+    width: 100%;
+    margin: 0 0 1%;
+    padding: 120px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
 .profile-container {
     display: flex;
     flex-direction: column;
